@@ -1,0 +1,15 @@
+name: FollowPlugin
+version: '${version}'
+main: follow.testPracticFollow.Follow
+api-version: '1.21'
+
+permissions:
+  follows.use:
+    description: Базовое использование плагина
+    default: true
+  follows.5:
+    description: 5 слотов слежки
+    default: false
+  follows.10:
+    description: 10 слотов слежки
+    default: false

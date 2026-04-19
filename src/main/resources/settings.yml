@@ -1,0 +1,23 @@
+Database:
+  # Тип: sqlite или mysql
+  Type: sqlite
+
+  # MySQL настройки
+  MySQL:
+    Host: localhost
+    Port: 3306
+    Database: followplugin
+    User: root
+    Password: password
+
+Messages:
+  Follow: "&aВы начали слежку за &e{player}&a."
+  Unfollow: "&cВы прекратили слежку за &e{player}&c."
+  UnfollowAll: "&cВы очистили весь список слежки."
+  AlreadyFollowing: "&cВы уже следите за &e{player}&c."
+  NotFollowing: "&cВы не следите за &e{player}&c."
+  LimitReached: "&cВы достигли лимита слежки &e({limit} слотов)&c."
+  PlayerNotFound: "&cИгрок &e{player} &cне найден."
+  TargetJoined: "&e{player} &aзашёл в сеть."
+  TargetLeft: "&e{player} &cвышел из сети."
+  TargetSwitched: "&e{player} &7перешёл на сервер &b{server}&7."
